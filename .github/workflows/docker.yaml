@@ -43,5 +43,5 @@ jobs:
           context: .
           push: true
           file: ./deploy/docker/Dockerfile
-          tags: ghcr.io/lowcode-yunti/openblocks:${{ steps.short-sha.outputs.short_sha }},ghcr.io/lowcode-yunti/yunti-client:latest
+          tags: ghcr.io/lowcode-yunti/openblocks:${{ steps.short-sha.outputs.short_sha }},ghcr.io/lowcode-yunti/openblocks:latest
           labels: ${{ steps.meta.outputs.labels }}
